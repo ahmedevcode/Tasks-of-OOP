@@ -5,7 +5,7 @@ public class Person {
     private String phone;
     private int age;
     public Person(){
-        System.out.println("hey person");
+       // System.out.println("hey person");
     }
 
     public Person(String name, String phone) {
