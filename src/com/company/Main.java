@@ -24,10 +24,14 @@ public class Main {
 //    System.out.println(b1.getName());
 //        System.out.println(b1.getPhone());
 //        b1.eat();
-        Engine e1=new Engine();
-        e1.setPower("600");
-        Car c1=new Car(50,"kjj","hhh",e1);
-        System.out.println(c1.getEngine().getPower());
+//        Engine e1=new Engine();
+//        e1.setPower("600");
+//        Car c1=new Car(50,"kjj","hhh",e1);
+//        System.out.println(c1.getEngine().getPower());
+        Boy b1=new Boy();
+        b1.Attend();
+        Girl G1=new Girl();
+        G1.Attend();
 
 
 

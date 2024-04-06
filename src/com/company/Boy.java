@@ -1,6 +1,6 @@
 package com.company;
 
-public class Boy extends Person{
+public class Boy extends Person implements School {
     private  String wfottball;
 
     public String getWfottball() {
@@ -12,7 +12,9 @@ public class Boy extends Person{
     }
 
     public Boy(){
-        System.out.println("hey ahmed");
+
+
+//        System.out.println("hey ahmed");
     }
 
     public Boy(String wfottball) {
@@ -25,5 +27,15 @@ public class Boy extends Person{
         super.eat();
         System.out.println(" is  eating in the night of ramadan Ahmed");
 
+    }
+
+    @Override
+    public void Attend() {
+        System.out.println("boy Attend to its School");
+    }
+
+    @Override
+    public void midterm() {
+        System.out.println("boy has a midterm ");
     }
 }
