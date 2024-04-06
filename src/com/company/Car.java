@@ -5,8 +5,6 @@ public class Car {
      private String color;
    private String model;
    private  Engine engine;
-
-
     public int getSpeed() {
         return speed;
     }

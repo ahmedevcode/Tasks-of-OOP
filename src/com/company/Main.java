@@ -30,8 +30,8 @@ public class Main {
 //        System.out.println(c1.getEngine().getPower());
         Boy b1=new Boy();
         b1.Attend();
-        Girl G1=new Girl();
-        G1.Attend();
+        b1.tasmee();
+
 
 
 
